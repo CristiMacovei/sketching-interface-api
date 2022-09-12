@@ -53,7 +53,6 @@ async function getUserFromToken(token: string): Promise<User | null> {
   return user;
 }
 
-//todo implement these
 sketchRouter.get(
   '/list',
   async (

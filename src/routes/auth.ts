@@ -31,10 +31,7 @@ authRouter.post(
         include: [
           {
             model: Sketch,
-            as: 'projects',
-            include: [
-              { model: User, as: 'user' }
-            ]
+            as: 'sketches'
           }
         ]
       });
